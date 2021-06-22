@@ -1,3 +1,64 @@
+# DelivrME - MEAN Stack Project B
+
+| Input | Output |
+| -------- | -------- |
+| Location (Address)|Show restaurants nearby and amount of restaurants nearby|
+|Filter restaurant categories| Show restaurants with matching categories|
+|Filter restaurants menu|Show dishes of a restaurant according to category|
+|Click on Dish|Add dish to shopping card (1 click => 1 item in card), show name, amount and price of item(s), sum up prices of items in card|
+
+
+## Data Structures
+
+### Classes
+```// declaration
+class Restaurant {
+  constructor(name, category, address, phone, hours) {
+    this.name = name;
+    this.category = category;
+    this.address = address;
+    this.phone = phone;
+    this.hours = hours;
+  }
+
+getMenu() {
+    // code to display all dishes of a restaurant
+  }
+
+}
+
+// define data properties outside the class definition
+Class.name = “Smiley’s Pizza”;
+Class.address = “Street 1”;  // and so on```
+
+
+
+
+Data Structures
+
+Classes
+// declaration
+class Restaurant {
+  constructor(name, category, address, phone, hours) {
+    this.name = name;
+    this.category = category;
+    this.address = address;
+    this.phone = phone;
+    this.hours = hours;
+  }
+
+getMenue() {
+    // code to display all dishes of a restaurant
+  }
+
+
+}
+// define data properties outside the class definition
+Class.name = “Smiley’s Pizza”;
+Class.address = “Street 1”;  // and so on
+
+
+
 ## Welcome to the mean stack
 
 The mean stack is intended to provide a simple and fun starting point for cloud native fullstack javascript applications.   
